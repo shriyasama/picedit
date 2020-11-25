@@ -1,0 +1,89 @@
+#first{
+  color:#045B4C;
+  font-style:italic;
+  text-align:center;
+}
+#sec{
+  color:#CB7010;
+  font-style:oblique 20deg;
+  text-align:center;
+}
+#yes{
+  width:32pt;
+  padding:2pt;
+  border=30px black;
+  background-color:green;
+}
+#no{
+  width:27pt;
+  padding:2pt;
+  border=30px black;
+  background-color:red;
+}
+#third{
+  color:#443074;
+  font-style:oblique;
+  text-align:center;
+  font-size:25pt;
+}
+.po{
+  color:#443074;
+  font-style:oblique;
+  text-align:center;
+  font-size:25pt;
+}
+
+.result1{
+   width: 40pt;
+  height: 35pt;
+  padding-left: 15pt;
+  padding-right: 75pt;
+  margin-left: 500pt;
+  right-right: 155pt;
+  border: 5px solid lightgrey;
+  color:#443074;
+  font-style:oblique;
+  text-align:center;
+  font-size:25pt;
+  background-color:lightgreen;
+}
+.result2{
+  width: 75pt;
+  height: 35pt;
+  padding-left: 15pt;
+  padding-right: 15pt;
+  margin-left: 505pt;
+  right-right: 155pt;
+  border: 5px solid lightgrey;
+  color:#443074;
+  font-style:oblique;
+  text-align:center;
+  font-size:25pt;
+  background-color:red;
+}
+#a{
+  width:70pt;
+  padding:2pt;
+  background-color:lightgreen;
+  border=1px black;
+  font-size:11pt;
+}
+#click{
+  font-size:10pt;
+  padding=10pt;
+}
+canvas{
+  width: 200px;
+  margin: 15px;
+  height:200px;
+  border: 1px solid lightgrey;
+  }
+.reset{
+  width: 100pt;
+  height: 100pt;
+  margin: 15pt;
+  border: 5px solid lightgrey;
+}
+#can4{
+  margin-left:100pt;
+}

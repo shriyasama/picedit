@@ -1,0 +1,41 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<div id="first">
+  <p><h1>Photo Magic!!!</h1></p>
+</div>
+<div>
+  <center><p id="a"><u>Limited Edition</p></u>
+  </center>
+<div id="third">
+  Are you excited?
+</div>
+<p><center>
+  <input type="button" value="YES" onclick =yes()>
+  <input type="button" value="NO" onclick =no()>
+  <input type="button" value="Reset" onclick =reset()>
+  </p></center>
+ <div id="sec">
+   <p><h1>Turn your picture B&W</p></h1>
+  </div>
+<center><p><h2>Grey Scale Algorithm</h2></p>
+<p>
+  (Using FILE Type) with Canvas:</p>
+<canvas id="can2"></canvas>
+<input type="file" multiple="false" accept="image/*" id="uplimg2" onchange=upload2()>
+<input type="button" id="greyscale" value="GreyScale" onclick=greyscale()>
+<input type="button" id="imgreset" value="Reset" onclick=imgreset()>
+</p>
+<div id="sec">
+   <p><h1>Chroma key effect</p></h1>
+  </div>
+<p><h2>Green Screen Algorithm</h2></p>
+<p><canvas id="can3"></canvas><canvas id="can4"></canvas></p>
+<p>
+  <b>Foreground Img: </b><input type="file" multiple="false" accept="image/*" id="uplimgf" onchange=uploadf()>
+  <b>Background Img: </b><input type="file" multiple="false" accept="image/*" id="uplimgb" onchange=uploadb()></p>
+<p><input type="button" id="composite" value="Create Composite" onclick=ccomposite()>
+  <input type="button" id="canvasesreset" value="Reset" onclick=canvasesreset()>  </p>
+<p>T&C applied</p>
+
+<div id="click">
+  <input type="button" value="EXIT" onclick ="alert('Are you sure u wanna exit?')">
+</div>
